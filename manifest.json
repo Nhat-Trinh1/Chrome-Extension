@@ -4,6 +4,7 @@
   "description": "Generates random memes and allows user to create their own",
   "manifest_version": 3,
   "author": "Mike and Nhat",
+  "_comment1": "When the extension is activated, has a default logo and automatically opens our html",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Magnificent Meme Maker 4.2",
@@ -12,7 +13,8 @@
   "icons": {
     "128": "logo.png"
   },
-  "permissions": ["activeTab"]
+  "_comment2": "gets permission for the current tab and new tabs",
+  "permissions": ["activeTab", "tabs"]
  }
 
  
